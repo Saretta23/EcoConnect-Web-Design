@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoConnect | Login </title>
+    <link rel="stylesheet" href="css/web.css">
+    <link href="https://fonts.googleapis.com/css?family=Atma|Dekko" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">EcoConnect</div> <a href="index.html"><img src="Images/EcoConnect.logo.png" class="logo-img" alt="eco"> </a>
+        <div class="menu-toggle" id="mobile-menu" onclick="toggleNav()">
+          <div class="icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav-items">
+            <a href="About.html" class="nav-links">About</a>
+            <a href="Get-involved.html" class="nav-links">Get Involved</a>
+            <a href="Blog.html" class="nav-links">Blog</a>
+            <a href="Contact-us.html" class="nav-links">Contact us</a>
+            <a href="Signup.html" class="nav-links nav-links-btn">Sign up</a>
+            <a href="Log.html" class="nav-links">Log in</a>
+         </div>
+         </div>
+        </nav>    
+    </header>
+    <section class="sign-up">
+        <div class="content" id="login-left"></div>
+        <div class="content" id="c-right">
+          <form class="Contact-box">
+            <a href="Signup.html" class="log-in">I don't have an account</a>
+            <h1 class="account">Log in </h1>
+            <div class="input-content">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                <input type="text" placeholder="Username" /> <br>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+                <input type="text" id="password" placeholder="Password" />
+                <span id="togglePassword" class="password-toggle-icon"></span>
+                  <i class="fa-solid fa-eye-slash" style="color: #795548;"></i></span>
+                <label><a href="#">Forgot your password?</a></label>
+           <button type="submit" id="Submit">Log in</button>  
+          </div>
+          </form>
+        </div>
+      </section>
+  <script src="javascript/script.js"></script>
+  <footer>
+    <a href="index.html">Back to Home</a> <br>
+    <img src="Images/EcoConnect.png" alt="" class="foo-img">
+    <p>Copyright &copy; 2023, Created By Sarah Dapaah </p>
+</footer>
+</body>
+</html>
