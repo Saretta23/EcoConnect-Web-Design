@@ -294,6 +294,7 @@ span.hero-subtitle {
 
   .carousel-caption p.testimonial  {
     font-size: 12px !important;
+    margin: -8px -34px;
   }
 
   .carousel .overview{
